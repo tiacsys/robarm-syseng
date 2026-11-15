@@ -2,6 +2,8 @@
 # It runs `curatrix check robarm-syseng --stage pr --no-cad` in a workspace built from the manifest's
 # main branch, with sibling repos resolved as described in D127.
 name: check
+permissions:
+  contents: read
 on:
   pull_request:
   push:
