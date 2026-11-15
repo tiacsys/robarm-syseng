@@ -1,0 +1,2766 @@
+[
+ {
+  "identity": {
+   "@id": "RobArmConfigs"
+  },
+  "payload": {
+   "@id": "RobArmConfigs",
+   "@type": "Package",
+   "declaredName": "RobArmConfigs",
+   "documentation": [
+    {
+     "@id": "RobArmConfigs/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmConfigs",
+   "ownedMember": [
+    {
+     "@id": "RobArmConfigs/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmConfigs/0"
+    },
+    {
+     "@id": "RobArmConfigs/1"
+    }
+   ],
+   "qualifiedName": "RobArmConfigs"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs/0"
+  },
+  "payload": {
+   "@id": "RobArmConfigs/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmConfigs/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmConfigs"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmConfigs/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmConfigs"
+    },
+    {
+     "@id": "RobArmConfigs/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmConfigs"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmConfigs/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs/0/0"
+  },
+  "payload": {
+   "@id": "RobArmConfigs/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmConfigs"
+    }
+   ],
+   "body": "The configurations of the robot arm (prototype, product) and their product models. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmConfigs"
+   },
+   "owningNamespace": {
+    "@id": "RobArmConfigs"
+   },
+   "owningRelationship": {
+    "@id": "RobArmConfigs/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs/1"
+  },
+  "payload": {
+   "@id": "RobArmConfigs/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:PLEML"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmConfigs"
+    },
+    {
+     "@id": "lib:PLEML"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmConfigs"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:PLEML"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext"
+  },
+  "payload": {
+   "@id": "RobArmContext",
+   "@type": "Package",
+   "declaredName": "RobArmContext",
+   "documentation": [
+    {
+     "@id": "RobArmContext/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmContext",
+   "ownedMember": [
+    {
+     "@id": "RobArmContext/0/0"
+    },
+    {
+     "@id": "RobArmContext/2/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmContext/0"
+    },
+    {
+     "@id": "RobArmContext/1"
+    },
+    {
+     "@id": "RobArmContext/2"
+    }
+   ],
+   "qualifiedName": "RobArmContext"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmContext/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmContext"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmContext/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmContext"
+    },
+    {
+     "@id": "RobArmContext/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmContext/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/0/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmContext"
+    }
+   ],
+   "body": "The system of interest, its actors and its interfaces to the outside. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmContext"
+   },
+   "owningNamespace": {
+    "@id": "RobArmContext"
+   },
+   "owningRelationship": {
+    "@id": "RobArmContext/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/1"
+  },
+  "payload": {
+   "@id": "RobArmContext/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:XdTrace"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmContext"
+    },
+    {
+     "@id": "lib:XdTrace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:XdTrace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2"
+  },
+  "payload": {
+   "@id": "RobArmContext/2",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmContext/2/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmContext"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmContext/2/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmContext"
+    },
+    {
+     "@id": "RobArmContext/2/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmContext/2/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0",
+   "@type": "MetadataUsage",
+   "annotatedElement": [
+    {
+     "@id": "RobArmContext"
+    }
+   ],
+   "definition": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::status"
+    },
+    {
+     "@id": "lib:Metaobjects::Metaobject::annotatedElement"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "metadataDefinition": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "ownedFeature": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmContext/2/0/0"
+    },
+    {
+     "@id": "RobArmContext/2/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmContext"
+   },
+   "owningNamespace": {
+    "@id": "RobArmContext"
+   },
+   "owningRelationship": {
+    "@id": "RobArmContext/2"
+   },
+   "type": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0/0",
+   "@type": "FeatureTyping",
+   "general": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmContext/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmContext/2/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext/2/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmContext/2/0"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "type": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "typedFeature": {
+    "@id": "RobArmContext/2/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0/1"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0/1",
+   "@type": "FeatureMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "memberName": "layer",
+   "membershipOwningNamespace": {
+    "@id": "RobArmContext/2/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmContext/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmContext/2/0"
+    },
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext/2/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0/1/0",
+   "@type": "ReferenceUsage",
+   "definition": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "name": "layer",
+   "ownedMember": [
+    {
+     "@id": "RobArmContext/2/0/1/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmContext/2/0/1/0/0"
+    },
+    {
+     "@id": "RobArmContext/2/0/1/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmContext/2/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmContext/2/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmContext/2/0/1"
+   },
+   "owningType": {
+    "@id": "RobArmContext/2/0"
+   },
+   "type": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0/1/0/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0/1/0/0",
+   "@type": "Redefinition",
+   "general": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "redefinedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "subsettedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0/1/0/1"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0/1/0/1",
+   "@type": "FeatureValue",
+   "featureWithValue": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmContext/2/0/1/0/1/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmContext/2/0/1/0/1/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    },
+    {
+     "@id": "RobArmContext/2/0/1/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmContext/2/0/1/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmContext/2/0/1/0/1/0"
+    }
+   ],
+   "value": {
+    "@id": "RobArmContext/2/0/1/0/1/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmContext/2/0/1/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmContext/2/0/1/0/1/0",
+   "@type": "LiteralString",
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmContext/2/0/1/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmContext/2/0/1/0/1"
+   },
+   "value": "context"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFeatures"
+  },
+  "payload": {
+   "@id": "RobArmFeatures",
+   "@type": "Package",
+   "declaredName": "RobArmFeatures",
+   "documentation": [
+    {
+     "@id": "RobArmFeatures/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmFeatures",
+   "ownedMember": [
+    {
+     "@id": "RobArmFeatures/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmFeatures/0"
+    },
+    {
+     "@id": "RobArmFeatures/1"
+    }
+   ],
+   "qualifiedName": "RobArmFeatures"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFeatures/0"
+  },
+  "payload": {
+   "@id": "RobArmFeatures/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmFeatures/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmFeatures"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmFeatures/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmFeatures"
+    },
+    {
+     "@id": "RobArmFeatures/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFeatures"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmFeatures/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFeatures/0/0"
+  },
+  "payload": {
+   "@id": "RobArmFeatures/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmFeatures"
+    }
+   ],
+   "body": "The features that tell the members of the product line apart. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmFeatures"
+   },
+   "owningNamespace": {
+    "@id": "RobArmFeatures"
+   },
+   "owningRelationship": {
+    "@id": "RobArmFeatures/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFeatures/1"
+  },
+  "payload": {
+   "@id": "RobArmFeatures/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:PLEML"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmFeatures"
+    },
+    {
+     "@id": "lib:PLEML"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFeatures"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:PLEML"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional"
+  },
+  "payload": {
+   "@id": "RobArmFunctional",
+   "@type": "Package",
+   "declaredName": "RobArmFunctional",
+   "documentation": [
+    {
+     "@id": "RobArmFunctional/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmFunctional",
+   "ownedMember": [
+    {
+     "@id": "RobArmFunctional/0/0"
+    },
+    {
+     "@id": "RobArmFunctional/2/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmFunctional/0"
+    },
+    {
+     "@id": "RobArmFunctional/1"
+    },
+    {
+     "@id": "RobArmFunctional/2"
+    }
+   ],
+   "qualifiedName": "RobArmFunctional"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmFunctional/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmFunctional"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmFunctional/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional"
+    },
+    {
+     "@id": "RobArmFunctional/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmFunctional/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/0/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmFunctional"
+    }
+   ],
+   "body": "The functions of the robot arm, free of any solution. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmFunctional"
+   },
+   "owningNamespace": {
+    "@id": "RobArmFunctional"
+   },
+   "owningRelationship": {
+    "@id": "RobArmFunctional/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/1"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:XdTrace"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional"
+    },
+    {
+     "@id": "lib:XdTrace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:XdTrace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmFunctional"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional"
+    },
+    {
+     "@id": "RobArmFunctional/2/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmFunctional/2/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0",
+   "@type": "MetadataUsage",
+   "annotatedElement": [
+    {
+     "@id": "RobArmFunctional"
+    }
+   ],
+   "definition": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::status"
+    },
+    {
+     "@id": "lib:Metaobjects::Metaobject::annotatedElement"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "metadataDefinition": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "ownedFeature": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmFunctional/2/0/0"
+    },
+    {
+     "@id": "RobArmFunctional/2/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmFunctional"
+   },
+   "owningNamespace": {
+    "@id": "RobArmFunctional"
+   },
+   "owningRelationship": {
+    "@id": "RobArmFunctional/2"
+   },
+   "type": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0/0",
+   "@type": "FeatureTyping",
+   "general": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional/2/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "type": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "typedFeature": {
+    "@id": "RobArmFunctional/2/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0/1"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0/1",
+   "@type": "FeatureMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "memberName": "layer",
+   "membershipOwningNamespace": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0"
+    },
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional/2/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0/1/0",
+   "@type": "ReferenceUsage",
+   "definition": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "name": "layer",
+   "ownedMember": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0/0"
+    },
+    {
+     "@id": "RobArmFunctional/2/0/1/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmFunctional/2/0/1"
+   },
+   "owningType": {
+    "@id": "RobArmFunctional/2/0"
+   },
+   "type": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0/1/0/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0/1/0/0",
+   "@type": "Redefinition",
+   "general": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "redefinedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "subsettedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0/1/0/1"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0/1/0/1",
+   "@type": "FeatureValue",
+   "featureWithValue": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmFunctional/2/0/1/0/1/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0/1/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    },
+    {
+     "@id": "RobArmFunctional/2/0/1/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmFunctional/2/0/1/0/1/0"
+    }
+   ],
+   "value": {
+    "@id": "RobArmFunctional/2/0/1/0/1/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmFunctional/2/0/1/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmFunctional/2/0/1/0/1/0",
+   "@type": "LiteralString",
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmFunctional/2/0/1/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmFunctional/2/0/1/0/1"
+   },
+   "value": "functional"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical"
+  },
+  "payload": {
+   "@id": "RobArmLogical",
+   "@type": "Package",
+   "declaredName": "RobArmLogical",
+   "documentation": [
+    {
+     "@id": "RobArmLogical/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmLogical",
+   "ownedMember": [
+    {
+     "@id": "RobArmLogical/0/0"
+    },
+    {
+     "@id": "RobArmLogical/2/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmLogical/0"
+    },
+    {
+     "@id": "RobArmLogical/1"
+    },
+    {
+     "@id": "RobArmLogical/2"
+    }
+   ],
+   "qualifiedName": "RobArmLogical"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmLogical/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmLogical"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmLogical/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical"
+    },
+    {
+     "@id": "RobArmLogical/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmLogical/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/0/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmLogical"
+    }
+   ],
+   "body": "The logical elements of the robot arm and how they connect. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmLogical"
+   },
+   "owningNamespace": {
+    "@id": "RobArmLogical"
+   },
+   "owningRelationship": {
+    "@id": "RobArmLogical/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/1"
+  },
+  "payload": {
+   "@id": "RobArmLogical/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:XdTrace"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical"
+    },
+    {
+     "@id": "lib:XdTrace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:XdTrace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmLogical"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmLogical/2/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical"
+    },
+    {
+     "@id": "RobArmLogical/2/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmLogical/2/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0",
+   "@type": "MetadataUsage",
+   "annotatedElement": [
+    {
+     "@id": "RobArmLogical"
+    }
+   ],
+   "definition": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::status"
+    },
+    {
+     "@id": "lib:Metaobjects::Metaobject::annotatedElement"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "metadataDefinition": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "ownedFeature": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmLogical/2/0/0"
+    },
+    {
+     "@id": "RobArmLogical/2/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmLogical"
+   },
+   "owningNamespace": {
+    "@id": "RobArmLogical"
+   },
+   "owningRelationship": {
+    "@id": "RobArmLogical/2"
+   },
+   "type": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0/0",
+   "@type": "FeatureTyping",
+   "general": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical/2/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical/2/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "type": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "typedFeature": {
+    "@id": "RobArmLogical/2/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0/1"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0/1",
+   "@type": "FeatureMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "memberName": "layer",
+   "membershipOwningNamespace": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical/2/0"
+    },
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical/2/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0/1/0",
+   "@type": "ReferenceUsage",
+   "definition": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "name": "layer",
+   "ownedMember": [
+    {
+     "@id": "RobArmLogical/2/0/1/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmLogical/2/0/1/0/0"
+    },
+    {
+     "@id": "RobArmLogical/2/0/1/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmLogical/2/0/1"
+   },
+   "owningType": {
+    "@id": "RobArmLogical/2/0"
+   },
+   "type": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0/1/0/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0/1/0/0",
+   "@type": "Redefinition",
+   "general": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "redefinedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "subsettedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0/1/0/1"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0/1/0/1",
+   "@type": "FeatureValue",
+   "featureWithValue": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmLogical/2/0/1/0/1/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmLogical/2/0/1/0/1/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    },
+    {
+     "@id": "RobArmLogical/2/0/1/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmLogical/2/0/1/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmLogical/2/0/1/0/1/0"
+    }
+   ],
+   "value": {
+    "@id": "RobArmLogical/2/0/1/0/1/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmLogical/2/0/1/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmLogical/2/0/1/0/1/0",
+   "@type": "LiteralString",
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmLogical/2/0/1/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmLogical/2/0/1/0/1"
+   },
+   "value": "logical"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct"
+  },
+  "payload": {
+   "@id": "RobArmProduct",
+   "@type": "Package",
+   "declaredName": "RobArmProduct",
+   "documentation": [
+    {
+     "@id": "RobArmProduct/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmProduct",
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct/0/0"
+    },
+    {
+     "@id": "RobArmProduct/2/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct/0"
+    },
+    {
+     "@id": "RobArmProduct/1"
+    },
+    {
+     "@id": "RobArmProduct/2"
+    }
+   ],
+   "qualifiedName": "RobArmProduct"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "body": "The product architecture of all members of the product line, with the allocations. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmProduct"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:XdTrace"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "lib:XdTrace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:XdTrace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct/2/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct/2/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct/2/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0",
+   "@type": "MetadataUsage",
+   "annotatedElement": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "definition": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::status"
+    },
+    {
+     "@id": "lib:Metaobjects::Metaobject::annotatedElement"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "metadataDefinition": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "ownedFeature": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct/2/0/0"
+    },
+    {
+     "@id": "RobArmProduct/2/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/2"
+   },
+   "type": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0/0",
+   "@type": "FeatureTyping",
+   "general": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct/2/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct/2/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace"
+    }
+   ],
+   "type": {
+    "@id": "lib:XdTrace::Trace"
+   },
+   "typedFeature": {
+    "@id": "RobArmProduct/2/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0/1",
+   "@type": "FeatureMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "memberName": "layer",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct/2/0"
+    },
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct/2/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0/1/0",
+   "@type": "ReferenceUsage",
+   "definition": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "name": "layer",
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct/2/0/1/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct/2/0/1/0/0"
+    },
+    {
+     "@id": "RobArmProduct/2/0/1/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/2/0/1"
+   },
+   "owningType": {
+    "@id": "RobArmProduct/2/0"
+   },
+   "type": [
+    {
+     "@id": "lib:ScalarValues::String"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0/1/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0/1/0/0",
+   "@type": "Redefinition",
+   "general": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "redefinedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    },
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "subsettedFeature": {
+    "@id": "lib:XdTrace::Trace::layer"
+   },
+   "target": [
+    {
+     "@id": "lib:XdTrace::Trace::layer"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0/1/0/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0/1/0/1",
+   "@type": "FeatureValue",
+   "featureWithValue": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct/2/0/1/0/1/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct/2/0/1/0/1/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    },
+    {
+     "@id": "RobArmProduct/2/0/1/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct/2/0/1/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct/2/0/1/0/1/0"
+    }
+   ],
+   "value": {
+    "@id": "RobArmProduct/2/0/1/0/1/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/2/0/1/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/2/0/1/0/1/0",
+   "@type": "LiteralString",
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct/2/0/1/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/2/0/1/0/1"
+   },
+   "value": "product"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProject"
+  },
+  "payload": {
+   "@id": "RobArmProject",
+   "@type": "Package",
+   "declaredName": "RobArmProject",
+   "documentation": [
+    {
+     "@id": "RobArmProject/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmProject",
+   "ownedMember": [
+    {
+     "@id": "RobArmProject/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProject/0"
+    }
+   ],
+   "qualifiedName": "RobArmProject"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProject/0"
+  },
+  "payload": {
+   "@id": "RobArmProject/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProject/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProject"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProject/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProject"
+    },
+    {
+     "@id": "RobArmProject/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProject"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProject/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProject/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProject/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmProject"
+    }
+   ],
+   "body": "The robot arm project: a leader arm that a person moves and a follower arm that copies it. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmProject"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProject"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProject/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmUseCases"
+  },
+  "payload": {
+   "@id": "RobArmUseCases",
+   "@type": "Package",
+   "declaredName": "RobArmUseCases",
+   "documentation": [
+    {
+     "@id": "RobArmUseCases/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmUseCases",
+   "ownedMember": [
+    {
+     "@id": "RobArmUseCases/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmUseCases/0"
+    }
+   ],
+   "qualifiedName": "RobArmUseCases"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmUseCases/0"
+  },
+  "payload": {
+   "@id": "RobArmUseCases/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmUseCases/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmUseCases"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmUseCases/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmUseCases"
+    },
+    {
+     "@id": "RobArmUseCases/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmUseCases"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmUseCases/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmUseCases/0/0"
+  },
+  "payload": {
+   "@id": "RobArmUseCases/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmUseCases"
+    }
+   ],
+   "body": "The use cases of the robot arm and the needs they address. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmUseCases"
+   },
+   "owningNamespace": {
+    "@id": "RobArmUseCases"
+   },
+   "owningRelationship": {
+    "@id": "RobArmUseCases/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmViews"
+  },
+  "payload": {
+   "@id": "RobArmViews",
+   "@type": "Package",
+   "declaredName": "RobArmViews",
+   "documentation": [
+    {
+     "@id": "RobArmViews/0/0"
+    }
+   ],
+   "isLibraryElement": false,
+   "name": "RobArmViews",
+   "ownedMember": [
+    {
+     "@id": "RobArmViews/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmViews/0"
+    },
+    {
+     "@id": "RobArmViews/1"
+    }
+   ],
+   "qualifiedName": "RobArmViews"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmViews/0"
+  },
+  "payload": {
+   "@id": "RobArmViews/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmViews/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmViews"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmViews/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmViews"
+    },
+    {
+     "@id": "RobArmViews/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmViews"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmViews/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmViews/0/0"
+  },
+  "payload": {
+   "@id": "RobArmViews/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmViews"
+    }
+   ],
+   "body": "The diagrams of the system model. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmViews"
+   },
+   "owningNamespace": {
+    "@id": "RobArmViews"
+   },
+   "owningRelationship": {
+    "@id": "RobArmViews/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmViews/1"
+  },
+  "payload": {
+   "@id": "RobArmViews/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:XdTrace"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmViews"
+    },
+    {
+     "@id": "lib:XdTrace"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmViews"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:XdTrace"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:Base::things::that"
+  },
+  "payload": {
+   "@id": "lib:Base::things::that",
+   "@type": "Feature",
+   "declaredName": "that",
+   "isLibraryElement": true,
+   "name": "that",
+   "qualifiedName": "Base::things::that"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:Metaobjects::Metaobject::annotatedElement"
+  },
+  "payload": {
+   "@id": "lib:Metaobjects::Metaobject::annotatedElement",
+   "@type": "Feature",
+   "declaredName": "annotatedElement",
+   "isLibraryElement": true,
+   "name": "annotatedElement",
+   "qualifiedName": "Metaobjects::Metaobject::annotatedElement"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:Occurrences::Occurrence::suboccurrences"
+  },
+  "payload": {
+   "@id": "lib:Occurrences::Occurrence::suboccurrences",
+   "@type": "Feature",
+   "declaredName": "suboccurrences",
+   "isLibraryElement": true,
+   "name": "suboccurrences",
+   "qualifiedName": "Occurrences::Occurrence::suboccurrences"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:Occurrences::Occurrence::this"
+  },
+  "payload": {
+   "@id": "lib:Occurrences::Occurrence::this",
+   "@type": "Feature",
+   "declaredName": "this",
+   "isLibraryElement": true,
+   "name": "this",
+   "qualifiedName": "Occurrences::Occurrence::this"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:PLEML"
+  },
+  "payload": {
+   "@id": "lib:PLEML",
+   "@type": "LibraryPackage",
+   "declaredName": "PLEML",
+   "isLibraryElement": true,
+   "name": "PLEML",
+   "qualifiedName": "PLEML"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:ScalarValues::String"
+  },
+  "payload": {
+   "@id": "lib:ScalarValues::String",
+   "@type": "DataType",
+   "declaredName": "String",
+   "isLibraryElement": true,
+   "name": "String",
+   "qualifiedName": "ScalarValues::String"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:XdTrace"
+  },
+  "payload": {
+   "@id": "lib:XdTrace",
+   "@type": "LibraryPackage",
+   "declaredName": "XdTrace",
+   "isLibraryElement": true,
+   "name": "XdTrace",
+   "qualifiedName": "XdTrace"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:XdTrace::Trace"
+  },
+  "payload": {
+   "@id": "lib:XdTrace::Trace",
+   "@type": "MetadataDefinition",
+   "declaredName": "Trace",
+   "isLibraryElement": true,
+   "name": "Trace",
+   "qualifiedName": "XdTrace::Trace"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:XdTrace::Trace::layer"
+  },
+  "payload": {
+   "@id": "lib:XdTrace::Trace::layer",
+   "@type": "AttributeUsage",
+   "declaredName": "layer",
+   "isLibraryElement": true,
+   "name": "layer",
+   "qualifiedName": "XdTrace::Trace::layer"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:XdTrace::Trace::status"
+  },
+  "payload": {
+   "@id": "lib:XdTrace::Trace::status",
+   "@type": "AttributeUsage",
+   "declaredName": "status",
+   "isLibraryElement": true,
+   "name": "status",
+   "qualifiedName": "XdTrace::Trace::status"
+  }
+ }
+]
