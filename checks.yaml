@@ -13,12 +13,11 @@ ids:                                    # CK-C1, CK-C2
 model:                                  # CK-E1, CK-D2 (SysML v2 Pilot), CK-B4 (variants)
   # SYSMOD and PLEML are west projects under libs/ (D84, D102). The model check can run only
   # once `west update` has fetched them. xdmod/sysml/*.sysml is always loaded first.
-  # SYSMOD is not loaded yet: SYSMOD.sysml and SYSMOD15288.sysml refer to each other, and
-  # curatrix loads library files one at a time, so either order gives errors. Switch the two
-  # lines on (and the import in model/project.sysml) once curatrix loads libraries as one set.
+  # curatrix loads all libraries as ONE set, so SYSMOD.sysml and SYSMOD15288.sysml, which refer
+  # to each other, resolve in any order.
   libraries:
-    # - "{ws}/libs/sysmod-sysmlv2/SYSMOD15288.sysml"
-    # - "{ws}/libs/sysmod-sysmlv2/SYSMOD.sysml"
+    - "{ws}/libs/sysmod-sysmlv2/SYSMOD.sysml"
+    - "{ws}/libs/sysmod-sysmlv2/SYSMOD15288.sysml"
     - "{ws}/libs/pleml/PLEML.sysml"
   files: [model/generated/NeedStubs.sysml, "model/*.sysml"]
   json: generated/model.json
