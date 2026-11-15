@@ -623,6 +623,12 @@
      "@id": "lib:Occurrences::Occurrence::suboccurrences"
     },
     {
+     "@id": "lib:Occurrences::Occurrence::startShot"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::endShot"
+    },
+    {
      "@id": "lib:Base::things::that"
     }
    ],
@@ -1267,6 +1273,12 @@
      "@id": "lib:Occurrences::Occurrence::suboccurrences"
     },
     {
+     "@id": "lib:Occurrences::Occurrence::startShot"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::endShot"
+    },
+    {
      "@id": "lib:Base::things::that"
     }
    ],
@@ -1783,6 +1795,12 @@
     },
     {
      "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::startShot"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::endShot"
     },
     {
      "@id": "lib:Base::things::that"
@@ -2303,6 +2321,12 @@
      "@id": "lib:Occurrences::Occurrence::suboccurrences"
     },
     {
+     "@id": "lib:Occurrences::Occurrence::startShot"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::endShot"
+    },
+    {
      "@id": "lib:Base::things::that"
     }
    ],
@@ -2346,6 +2370,9 @@
    "ownedRelationship": [
     {
      "@id": "RobArmProject/0"
+    },
+    {
+     "@id": "RobArmProject/1"
     }
    ],
    "qualifiedName": "RobArmProject"
@@ -2413,6 +2440,37 @@
    "owningRelationship": {
     "@id": "RobArmProject/0"
    }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProject/1"
+  },
+  "payload": {
+   "@id": "RobArmProject/1",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:SYSMOD"
+   },
+   "isLibraryElement": false,
+   "relatedElement": [
+    {
+     "@id": "RobArmProject"
+    },
+    {
+     "@id": "lib:SYSMOD"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProject"
+    }
+   ],
+   "target": [
+    {
+     "@id": "lib:SYSMOD"
+    }
+   ]
   }
  },
  {
@@ -2661,6 +2719,32 @@
  },
  {
   "identity": {
+   "@id": "lib:Occurrences::Occurrence::endShot"
+  },
+  "payload": {
+   "@id": "lib:Occurrences::Occurrence::endShot",
+   "@type": "Feature",
+   "declaredName": "endShot",
+   "isLibraryElement": true,
+   "name": "endShot",
+   "qualifiedName": "Occurrences::Occurrence::endShot"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:Occurrences::Occurrence::startShot"
+  },
+  "payload": {
+   "@id": "lib:Occurrences::Occurrence::startShot",
+   "@type": "Feature",
+   "declaredName": "startShot",
+   "isLibraryElement": true,
+   "name": "startShot",
+   "qualifiedName": "Occurrences::Occurrence::startShot"
+  }
+ },
+ {
+  "identity": {
    "@id": "lib:Occurrences::Occurrence::suboccurrences"
   },
   "payload": {
@@ -2696,6 +2780,19 @@
    "isLibraryElement": true,
    "name": "PLEML",
    "qualifiedName": "PLEML"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:SYSMOD"
+  },
+  "payload": {
+   "@id": "lib:SYSMOD",
+   "@type": "LibraryPackage",
+   "declaredName": "SYSMOD",
+   "isLibraryElement": true,
+   "name": "SYSMOD",
+   "qualifiedName": "SYSMOD"
   }
  },
  {
