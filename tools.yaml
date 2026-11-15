@@ -1,0 +1,5 @@
+# Non-pip tools that robarm-syseng needs on top of xdmod/tools.yaml (D19).
+# Format: xdmod/curatrix/README.md ("tools.yaml"). The SysML v2 Pilot, the JDK and the view
+# tools (elkjs, drawio viewer) are already pinned in xdmod/tools.yaml, so nothing is listed here.
+tools: []
+system: []

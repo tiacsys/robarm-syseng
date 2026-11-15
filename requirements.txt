@@ -1,0 +1,3 @@
+# pip packages that robarm-syseng needs on top of xdmod/requirements.txt (D19). Pin every
+# package with ==. The docs build, the stubs and the model check use only xdmod's packages, so
+# nothing is listed here yet.

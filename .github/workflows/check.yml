@@ -1,0 +1,16 @@
+# PR check of robarm-syseng: a thin caller of xdmod's reusable workflow (xdmod/workflows/check.yml).
+# It runs `curatrix check robarm-syseng --stage pr --no-cad` in a workspace built from the manifest's
+# main branch, with sibling repos resolved as described in D127.
+name: check
+on:
+  pull_request:
+  push:
+    branches: [main]
+  workflow_dispatch:
+
+jobs:
+  check:
+    uses: tiacsys/xdmod/.github/workflows/curatrix-check.yml@main
+    with:
+      repo: robarm-syseng
+      role: integration

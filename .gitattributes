@@ -1,0 +1,6 @@
+# Line endings, diff drivers and GitHub hints (repo-layouts.md §1).
+* text=auto eol=lf
+*.sysml text eol=lf
+*.drawio.svg text eol=lf
+generated/** linguist-generated=true
+model/generated/** linguist-generated=true
