@@ -6,7 +6,7 @@ SysML v2 model in ``model/``: the needs generated from the model and the diagram
 
 .. note::
 
-   This is a skeleton. The content comes in Phase 5.
+   This is a skeleton. The content comes in Phase 6.
 
 What will go here
 -----------------
