@@ -3,4 +3,21 @@ library package NeedStubs {
     private import ScalarValues::*;
     private import XdTrace::*;
 
+    part <'SYS-STH-0001'> sys_sth_0001 {
+        doc /* Toolchain maintainer */
+        @NeedRef { needId = "SYS-STH-0001"; status = "valid"; }
+    }
+    concern <'SYS-NEED-0001'> sys_need_0001 {
+        doc /* A trace chain that tests the tools */
+        @NeedRef { needId = "SYS-NEED-0001"; status = "valid"; }
+    }
+    requirement <'SYS-REQ-0001'> sys_req_0001 {
+        doc /* Canary response time */
+        @NeedRef { needId = "SYS-REQ-0001"; status = "valid"; }
+        attribute ears : String = "event";
+        attribute quantity : String = "latency";
+        attribute unit : String = "ms";
+        attribute max : Real = 50.0;
+        frame sys_need_0001;
+    }
 }
