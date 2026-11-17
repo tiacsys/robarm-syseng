@@ -1,13 +1,17 @@
-# ID ledger of robarm-syseng (id-scheme.md §4, D78, D133). Every number issued per kind, one per line.
+# ID ledger (id-scheme.md §4, D133). Every number issued per kind, one per line.
 # Append-only: a number listed here is never issued again. Edit it only through
-# `curatrix ids new <KIND>` / `curatrix ids fix robarm-syseng`. A `KIND: []` line makes this repo the
-# owner of that kind.
-SYS-STH: []
-SYS-NEED: []
-SYS-UC: []
-SYS-REQ: []
-SYS-IF: []
-SYS-EL: []
-SYS-CFG: []
+# `curatrix ids new` / `curatrix ids fix`.
+SYS-CFG:
+  - 1
+SYS-EL:
+  - 1
 SYS-FEAT: []
-SYS-VIEW: []   # reserved non-need kind: short names of views (D94)
+SYS-IF: []
+SYS-NEED:
+  - 1
+SYS-REQ:
+  - 1
+SYS-STH:
+  - 1
+SYS-UC: []
+SYS-VIEW: []

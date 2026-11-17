@@ -21,3 +21,8 @@ The document follows the SYSMOD steps:
 
 Stakeholders, needs and requirements are written here as sphinx-needs. A tool turns them into
 read-only stubs in ``model/generated/NeedStubs.sysml``, so that the SysML model can refer to them.
+
+.. toctree::
+   :maxdepth: 1
+
+   canary

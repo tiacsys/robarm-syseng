@@ -4,7 +4,38 @@
   "project": "robarm-syseng-model",
   "versions": {
     "": {
-      "needs": {}
+      "needs": {
+        "SYS-CFG-0001": {
+          "configures": [
+            "SYS-EL-0001"
+          ],
+          "content": "SysML ``PartDefinition`` ``RobArmConfigs::canary``.",
+          "id": "SYS-CFG-0001",
+          "qualified_name": "RobArmConfigs::canary",
+          "source_file": "model/configs.sysml",
+          "status": "valid",
+          "sysml_kind": "PartDefinition",
+          "title": "canary",
+          "type": "sys-cfg"
+        },
+        "SYS-EL-0001": {
+          "content": "SysML ``PartDefinition`` ``RobArmProduct::CanaryUnit``.",
+          "id": "SYS-EL-0001",
+          "instances": [
+            "RobArmProduct::CanaryContext::canaryUnit"
+          ],
+          "layer": "product",
+          "qualified_name": "RobArmProduct::CanaryUnit",
+          "satisfies": [
+            "SYS-REQ-0001"
+          ],
+          "source_file": "model/product.sysml",
+          "status": "valid",
+          "sysml_kind": "PartDefinition",
+          "title": "CanaryUnit",
+          "type": "sys-el"
+        }
+      }
     }
   }
 }

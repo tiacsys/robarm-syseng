@@ -17,6 +17,9 @@
    "ownedMember": [
     {
      "@id": "RobArmConfigs/0/0"
+    },
+    {
+     "@id": "RobArmConfigs::canary"
     }
    ],
    "ownedRelationship": [
@@ -25,6 +28,9 @@
     },
     {
      "@id": "RobArmConfigs/1"
+    },
+    {
+     "@id": "RobArmConfigs/2"
     }
    ],
    "qualifiedName": "RobArmConfigs"
@@ -123,6 +129,160 @@
      "@id": "lib:PLEML"
     }
    ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs/2"
+  },
+  "payload": {
+   "@id": "RobArmConfigs/2",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmConfigs::canary"
+   },
+   "memberName": "canary",
+   "membershipOwningNamespace": {
+    "@id": "RobArmConfigs"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmConfigs"
+    },
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmConfigs"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs::canary"
+  },
+  "payload": {
+   "@id": "RobArmConfigs::canary",
+   "@type": "PartDefinition",
+   "declaredName": "canary",
+   "declaredShortName": "SYS-CFG-0001",
+   "documentation": [
+    {
+     "@id": "RobArmConfigs::canary/0/0"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    }
+   ],
+   "isAbstract": false,
+   "isConjugated": false,
+   "isLibraryElement": false,
+   "isVariation": false,
+   "name": "canary",
+   "ownedMember": [
+    {
+     "@id": "RobArmConfigs::canary/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmConfigs::canary/0"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmConfigs"
+   },
+   "owningNamespace": {
+    "@id": "RobArmConfigs"
+   },
+   "owningRelationship": {
+    "@id": "RobArmConfigs/2"
+   },
+   "qualifiedName": "RobArmConfigs::canary",
+   "shortName": "SYS-CFG-0001"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs::canary/0"
+  },
+  "payload": {
+   "@id": "RobArmConfigs::canary/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmConfigs::canary/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmConfigs::canary"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmConfigs::canary/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmConfigs::canary"
+    },
+    {
+     "@id": "RobArmConfigs::canary/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmConfigs::canary/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmConfigs::canary/0/0"
+  },
+  "payload": {
+   "@id": "RobArmConfigs::canary/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ],
+   "body": "The canary: a small, permanent trace chain through all repos that tests the tools.\nReports, BOM totals and coverage numbers leave it out. The elements it configures\nare linked in product.sysml: the Pilot reads the model files in name order, so this\nfile cannot refer to elements of product.sysml. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmConfigs::canary"
+   },
+   "owningNamespace": {
+    "@id": "RobArmConfigs::canary"
+   },
+   "owningRelationship": {
+    "@id": "RobArmConfigs::canary/0"
+   }
   }
  },
  {
@@ -1843,7 +2003,16 @@
      "@id": "RobArmProduct/0/0"
     },
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "RobArmProduct/3/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    },
+    {
+     "@id": "RobArmProduct/6/0"
     }
    ],
    "ownedRelationship": [
@@ -1855,6 +2024,18 @@
     },
     {
      "@id": "RobArmProduct/2"
+    },
+    {
+     "@id": "RobArmProduct/3"
+    },
+    {
+     "@id": "RobArmProduct/4"
+    },
+    {
+     "@id": "RobArmProduct/5"
+    },
+    {
+     "@id": "RobArmProduct/6"
     }
    ],
    "qualifiedName": "RobArmProduct"
@@ -1961,25 +2142,17 @@
   },
   "payload": {
    "@id": "RobArmProduct/2",
-   "@type": "OwningMembership",
+   "@type": "NamespaceImport",
+   "importedNamespace": {
+    "@id": "lib:NeedStubs"
+   },
    "isLibraryElement": false,
-   "memberElement": {
-    "@id": "RobArmProduct/2/0"
-   },
-   "membershipOwningNamespace": {
-    "@id": "RobArmProduct"
-   },
-   "ownedRelatedElement": [
-    {
-     "@id": "RobArmProduct/2/0"
-    }
-   ],
    "relatedElement": [
     {
      "@id": "RobArmProduct"
     },
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "lib:NeedStubs"
     }
    ],
    "source": [
@@ -1989,17 +2162,56 @@
    ],
    "target": [
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "lib:NeedStubs"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0"
+   "@id": "RobArmProduct/3"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0",
+   "@id": "RobArmProduct/3",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct/3/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct/3/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct/3/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct/3/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/3/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/3/0",
    "@type": "MetadataUsage",
    "annotatedElement": [
     {
@@ -2013,7 +2225,7 @@
    ],
    "feature": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     },
     {
      "@id": "lib:XdTrace::Trace::status"
@@ -2043,20 +2255,20 @@
    },
    "ownedFeature": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ],
    "ownedMember": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct/2/0/0"
+     "@id": "RobArmProduct/3/0/0"
     },
     {
-     "@id": "RobArmProduct/2/0/1"
+     "@id": "RobArmProduct/3/0/1"
     }
    ],
    "owner": {
@@ -2066,7 +2278,7 @@
     "@id": "RobArmProduct"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct/2"
+    "@id": "RobArmProduct/3"
    },
    "type": [
     {
@@ -2077,21 +2289,21 @@
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0/0"
+   "@id": "RobArmProduct/3/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0/0",
+   "@id": "RobArmProduct/3/0/0",
    "@type": "FeatureTyping",
    "general": {
     "@id": "lib:XdTrace::Trace"
    },
    "isLibraryElement": false,
    "owningType": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "RobArmProduct/3/0"
     },
     {
      "@id": "lib:XdTrace::Trace"
@@ -2099,11 +2311,11 @@
    ],
    "source": [
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "RobArmProduct/3/0"
     }
    ],
    "specific": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "target": [
     {
@@ -2114,59 +2326,59 @@
     "@id": "lib:XdTrace::Trace"
    },
    "typedFeature": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0/1"
+   "@id": "RobArmProduct/3/0/1"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0/1",
+   "@id": "RobArmProduct/3/0/1",
    "@type": "FeatureMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "memberName": "layer",
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ],
    "owningType": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "RobArmProduct/3/0"
     },
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct/2/0"
+     "@id": "RobArmProduct/3/0"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0/1/0"
+   "@id": "RobArmProduct/3/0/1/0"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0/1/0",
+   "@id": "RobArmProduct/3/0/1/0",
    "@type": "ReferenceUsage",
    "definition": [
     {
@@ -2188,28 +2400,28 @@
    "name": "layer",
    "ownedMember": [
     {
-     "@id": "RobArmProduct/2/0/1/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0/1/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct/2/0/1/0/0"
+     "@id": "RobArmProduct/3/0/1/0/0"
     },
     {
-     "@id": "RobArmProduct/2/0/1/0/1"
+     "@id": "RobArmProduct/3/0/1/0/1"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct/2/0/1"
+    "@id": "RobArmProduct/3/0/1"
    },
    "owningType": {
-    "@id": "RobArmProduct/2/0"
+    "@id": "RobArmProduct/3/0"
    },
    "type": [
     {
@@ -2220,24 +2432,24 @@
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0/1/0/0"
+   "@id": "RobArmProduct/3/0/1/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0/1/0/0",
+   "@id": "RobArmProduct/3/0/1/0/0",
    "@type": "Redefinition",
    "general": {
     "@id": "lib:XdTrace::Trace::layer"
    },
    "isLibraryElement": false,
    "owningType": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "redefinedFeature": {
     "@id": "lib:XdTrace::Trace::layer"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     },
     {
      "@id": "lib:XdTrace::Trace::layer"
@@ -2245,11 +2457,11 @@
    ],
    "source": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ],
    "specific": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "subsettedFeature": {
     "@id": "lib:XdTrace::Trace::layer"
@@ -2263,55 +2475,55 @@
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0/1/0/1"
+   "@id": "RobArmProduct/3/0/1/0/1"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0/1/0/1",
+   "@id": "RobArmProduct/3/0/1/0/1",
    "@type": "FeatureValue",
    "featureWithValue": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct/2/0/1/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0/1/0"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct/2/0/1/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0/1/0"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     },
     {
-     "@id": "RobArmProduct/2/0/1/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0/1/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct/2/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct/2/0/1/0/1/0"
+     "@id": "RobArmProduct/3/0/1/0/1/0"
     }
    ],
    "value": {
-    "@id": "RobArmProduct/2/0/1/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0/1/0"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/2/0/1/0/1/0"
+   "@id": "RobArmProduct/3/0/1/0/1/0"
   },
   "payload": {
-   "@id": "RobArmProduct/2/0/1/0/1/0",
+   "@id": "RobArmProduct/3/0/1/0/1/0",
    "@type": "LiteralString",
    "feature": [
     {
@@ -2336,15 +2548,1070 @@
    "isEnd": false,
    "isLibraryElement": false,
    "owner": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct/2/0/1/0"
+    "@id": "RobArmProduct/3/0/1/0"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct/2/0/1/0/1"
+    "@id": "RobArmProduct/3/0/1/0/1"
    },
    "value": "product"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/4"
+  },
+  "payload": {
+   "@id": "RobArmProduct/4",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryUnit"
+   },
+   "memberName": "CanaryUnit",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/5"
+  },
+  "payload": {
+   "@id": "RobArmProduct/5",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "memberName": "CanaryContext",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/6"
+  },
+  "payload": {
+   "@id": "RobArmProduct/6",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct/6/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct/6/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct/6/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct/6/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct/6/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct/6/0",
+   "@type": "Dependency",
+   "client": [
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ],
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmProduct"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/6"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmConfigs::canary"
+    },
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmConfigs::canary"
+    }
+   ],
+   "supplier": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext",
+   "@type": "PartDefinition",
+   "declaredName": "CanaryContext",
+   "feature": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    }
+   ],
+   "isAbstract": false,
+   "isConjugated": false,
+   "isLibraryElement": false,
+   "isVariation": false,
+   "name": "CanaryContext",
+   "ownedFeature": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ],
+   "ownedPart": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::CanaryContext/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/5"
+   },
+   "qualifiedName": "RobArmProduct::CanaryContext"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/0",
+   "@type": "FeatureMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "memberName": "canaryUnit",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1",
+   "@type": "FeatureMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0",
+   "@type": "SatisfyRequirementUsage",
+   "feature": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    },
+    {
+     "@id": "lib:NeedStubs::sys_req_0001::ears"
+    },
+    {
+     "@id": "lib:NeedStubs::sys_req_0001::quantity"
+    },
+    {
+     "@id": "lib:NeedStubs::sys_req_0001::unit"
+    },
+    {
+     "@id": "lib:NeedStubs::sys_req_0001::max"
+    },
+    {
+     "@id": "lib:NeedStubs::sys_req_0001::sys_need_0001"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::startShot"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::endShot"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": true,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": false,
+   "isVariation": false,
+   "ownedFeature": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryContext/1"
+   },
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "satisfiedRequirement": {
+    "@id": "lib:NeedStubs::sys_req_0001"
+   },
+   "satisfyingFeature": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/0",
+   "@type": "ReferenceSubsetting",
+   "general": {
+    "@id": "lib:NeedStubs::sys_req_0001"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    },
+    {
+     "@id": "lib:NeedStubs::sys_req_0001"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "subsettedFeature": {
+    "@id": "lib:NeedStubs::sys_req_0001"
+   },
+   "target": [
+    {
+     "@id": "lib:NeedStubs::sys_req_0001"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1",
+   "@type": "SubjectMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+   },
+   "memberName": "subj",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0",
+   "@type": "ReferenceUsage",
+   "direction": "in",
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": true,
+   "isVariation": false,
+   "name": "subj",
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1"
+   },
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext/1/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0",
+   "@type": "FeatureValue",
+   "featureWithValue": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+   },
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    }
+   ],
+   "value": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0",
+   "@type": "FeatureReferenceExpression",
+   "feature": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::startShot"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::endShot"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "ownedFeature": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    }
+   ],
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0"
+   },
+   "referent": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/0",
+   "@type": "Membership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1",
+   "@type": "ReturnParameterMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+   },
+   "memberName": "result",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    }
+   ],
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0",
+   "@type": "Feature",
+   "direction": "out",
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "name": "result",
+   "owner": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1"
+   },
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   },
+   "type": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit",
+   "@type": "PartUsage",
+   "declaredName": "canaryUnit",
+   "definition": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    },
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": true,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "isReference": false,
+   "isVariation": false,
+   "name": "canaryUnit",
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit/0"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit/1"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryContext/0"
+   },
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext"
+   },
+   "qualifiedName": "RobArmProduct::CanaryContext::canaryUnit",
+   "type": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit/0",
+   "@type": "FeatureTyping",
+   "general": {
+    "@id": "RobArmProduct::CanaryUnit"
+   },
+   "isLibraryElement": false,
+   "owningType": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ],
+   "specific": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "type": {
+    "@id": "RobArmProduct::CanaryUnit"
+   },
+   "typedFeature": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   }
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit/1"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit/1",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0",
+   "@type": "Multiplicity",
+   "feature": [
+    {
+     "@id": "lib:Base::things::that"
+    }
+   ],
+   "isAbstract": false,
+   "isComposite": false,
+   "isConjugated": false,
+   "isEnd": false,
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryContext::canaryUnit/1"
+   },
+   "type": [
+    {
+     "@id": "lib:ScalarValues::Natural"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryUnit"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryUnit",
+   "@type": "PartDefinition",
+   "declaredName": "CanaryUnit",
+   "declaredShortName": "SYS-EL-0001",
+   "documentation": [
+    {
+     "@id": "RobArmProduct::CanaryUnit/0/0"
+    }
+   ],
+   "feature": [
+    {
+     "@id": "lib:Occurrences::Occurrence::this"
+    },
+    {
+     "@id": "lib:Occurrences::Occurrence::suboccurrences"
+    }
+   ],
+   "isAbstract": false,
+   "isConjugated": false,
+   "isLibraryElement": false,
+   "isVariation": false,
+   "name": "CanaryUnit",
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::CanaryUnit/0/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::CanaryUnit/0"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/4"
+   },
+   "qualifiedName": "RobArmProduct::CanaryUnit",
+   "shortName": "SYS-EL-0001"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryUnit/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryUnit/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::CanaryUnit/0/0"
+   },
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct::CanaryUnit"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryUnit/0/0"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::CanaryUnit/0/0"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::CanaryUnit/0/0"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::CanaryUnit/0/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::CanaryUnit/0/0",
+   "@type": "Documentation",
+   "annotatedElement": [
+    {
+     "@id": "RobArmProduct::CanaryUnit"
+    }
+   ],
+   "body": "The one product element of the canary: a board, a part and a bit of firmware. ",
+   "isLibraryElement": false,
+   "owner": {
+    "@id": "RobArmProduct::CanaryUnit"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct::CanaryUnit"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct::CanaryUnit/0"
+   }
   }
  },
  {
@@ -2719,6 +3986,97 @@
  },
  {
   "identity": {
+   "@id": "lib:NeedStubs"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs",
+   "@type": "LibraryPackage",
+   "declaredName": "NeedStubs",
+   "isLibraryElement": true,
+   "name": "NeedStubs",
+   "qualifiedName": "NeedStubs"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:NeedStubs::sys_req_0001"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs::sys_req_0001",
+   "@type": "RequirementUsage",
+   "declaredName": "sys_req_0001",
+   "declaredShortName": "SYS-REQ-0001",
+   "isLibraryElement": true,
+   "name": "sys_req_0001",
+   "qualifiedName": "NeedStubs::sys_req_0001"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:NeedStubs::sys_req_0001::ears"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs::sys_req_0001::ears",
+   "@type": "AttributeUsage",
+   "declaredName": "ears",
+   "isLibraryElement": true,
+   "name": "ears",
+   "qualifiedName": "NeedStubs::sys_req_0001::ears"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:NeedStubs::sys_req_0001::max"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs::sys_req_0001::max",
+   "@type": "AttributeUsage",
+   "declaredName": "max",
+   "isLibraryElement": true,
+   "name": "max",
+   "qualifiedName": "NeedStubs::sys_req_0001::max"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:NeedStubs::sys_req_0001::quantity"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs::sys_req_0001::quantity",
+   "@type": "AttributeUsage",
+   "declaredName": "quantity",
+   "isLibraryElement": true,
+   "name": "quantity",
+   "qualifiedName": "NeedStubs::sys_req_0001::quantity"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:NeedStubs::sys_req_0001::sys_need_0001"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs::sys_req_0001::sys_need_0001",
+   "@type": "ConcernUsage",
+   "isLibraryElement": true,
+   "name": "sys_need_0001",
+   "qualifiedName": "NeedStubs::sys_req_0001::sys_need_0001"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:NeedStubs::sys_req_0001::unit"
+  },
+  "payload": {
+   "@id": "lib:NeedStubs::sys_req_0001::unit",
+   "@type": "AttributeUsage",
+   "declaredName": "unit",
+   "isLibraryElement": true,
+   "name": "unit",
+   "qualifiedName": "NeedStubs::sys_req_0001::unit"
+  }
+ },
+ {
+  "identity": {
    "@id": "lib:Occurrences::Occurrence::endShot"
   },
   "payload": {
@@ -2793,6 +4151,19 @@
    "isLibraryElement": true,
    "name": "SYSMOD",
    "qualifiedName": "SYSMOD"
+  }
+ },
+ {
+  "identity": {
+   "@id": "lib:ScalarValues::Natural"
+  },
+  "payload": {
+   "@id": "lib:ScalarValues::Natural",
+   "@type": "DataType",
+   "declaredName": "Natural",
+   "isLibraryElement": true,
+   "name": "Natural",
+   "qualifiedName": "ScalarValues::Natural"
   }
  },
  {
