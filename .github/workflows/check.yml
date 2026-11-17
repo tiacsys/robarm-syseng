@@ -17,3 +17,14 @@ jobs:
       manifest: tiacsys/robarm-manifest
       repo: robarm-syseng
       role: integration
+
+  # A syseng PR also checks the full set with this branch, so a removed or changed requirement
+  # shows its downstream effect before the merge (task 5.7, P4-6). Not required yet: it reports.
+  downstream:
+    if: github.event_name == 'pull_request'
+    uses: tiacsys/xdmod/.github/workflows/curatrix-check.yml@main
+    with:
+      manifest: tiacsys/robarm-manifest
+      repo: robarm-manifest
+      role: integration
+      stage: full
