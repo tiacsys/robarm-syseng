@@ -19,13 +19,13 @@
           "type": "sys-cfg"
         },
         "SYS-EL-0001": {
-          "content": "SysML ``PartDefinition`` ``RobArmProduct::CanaryUnit``.",
+          "content": "SysML ``PartDefinition`` ``RobArmProduct::Canary::CanaryUnit``.",
           "id": "SYS-EL-0001",
           "instances": [
-            "RobArmProduct::CanaryContext::canaryUnit"
+            "RobArmProduct::Canary::CanaryContext::canaryUnit"
           ],
           "layer": "product",
-          "qualified_name": "RobArmProduct::CanaryUnit",
+          "qualified_name": "RobArmProduct::Canary::CanaryUnit",
           "satisfies": [
             "SYS-REQ-0001"
           ],

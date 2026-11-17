@@ -2006,13 +2006,7 @@
      "@id": "RobArmProduct/3/0"
     },
     {
-     "@id": "RobArmProduct::CanaryUnit"
-    },
-    {
-     "@id": "RobArmProduct::CanaryContext"
-    },
-    {
-     "@id": "RobArmProduct/6/0"
+     "@id": "RobArmProduct::Canary"
     }
    ],
    "ownedRelationship": [
@@ -2030,12 +2024,6 @@
     },
     {
      "@id": "RobArmProduct/4"
-    },
-    {
-     "@id": "RobArmProduct/5"
-    },
-    {
-     "@id": "RobArmProduct/6"
     }
    ],
    "qualifiedName": "RobArmProduct"
@@ -2568,122 +2556,206 @@
    "@type": "OwningMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryUnit"
+    "@id": "RobArmProduct::Canary"
+   },
+   "memberName": "Canary",
+   "membershipOwningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "ownedRelatedElement": [
+    {
+     "@id": "RobArmProduct::Canary"
+    }
+   ],
+   "relatedElement": [
+    {
+     "@id": "RobArmProduct"
+    },
+    {
+     "@id": "RobArmProduct::Canary"
+    }
+   ],
+   "source": [
+    {
+     "@id": "RobArmProduct"
+    }
+   ],
+   "target": [
+    {
+     "@id": "RobArmProduct::Canary"
+    }
+   ]
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::Canary"
+  },
+  "payload": {
+   "@id": "RobArmProduct::Canary",
+   "@type": "Package",
+   "declaredName": "Canary",
+   "isLibraryElement": false,
+   "name": "Canary",
+   "ownedMember": [
+    {
+     "@id": "RobArmProduct::Canary::CanaryUnit"
+    },
+    {
+     "@id": "RobArmProduct::Canary::CanaryContext"
+    },
+    {
+     "@id": "RobArmProduct::Canary/2/0"
+    }
+   ],
+   "ownedRelationship": [
+    {
+     "@id": "RobArmProduct::Canary/0"
+    },
+    {
+     "@id": "RobArmProduct::Canary/1"
+    },
+    {
+     "@id": "RobArmProduct::Canary/2"
+    }
+   ],
+   "owner": {
+    "@id": "RobArmProduct"
+   },
+   "owningNamespace": {
+    "@id": "RobArmProduct"
+   },
+   "owningRelationship": {
+    "@id": "RobArmProduct/4"
+   },
+   "qualifiedName": "RobArmProduct::Canary"
+  }
+ },
+ {
+  "identity": {
+   "@id": "RobArmProduct::Canary/0"
+  },
+  "payload": {
+   "@id": "RobArmProduct::Canary/0",
+   "@type": "OwningMembership",
+   "isLibraryElement": false,
+   "memberElement": {
+    "@id": "RobArmProduct::Canary::CanaryUnit"
    },
    "memberName": "CanaryUnit",
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct"
+     "@id": "RobArmProduct::Canary"
     },
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct"
+     "@id": "RobArmProduct::Canary"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/5"
+   "@id": "RobArmProduct::Canary/1"
   },
   "payload": {
-   "@id": "RobArmProduct/5",
+   "@id": "RobArmProduct::Canary/1",
    "@type": "OwningMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "memberName": "CanaryContext",
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct"
+     "@id": "RobArmProduct::Canary"
     },
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct"
+     "@id": "RobArmProduct::Canary"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/6"
+   "@id": "RobArmProduct::Canary/2"
   },
   "payload": {
-   "@id": "RobArmProduct/6",
+   "@id": "RobArmProduct::Canary/2",
    "@type": "OwningMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct/6/0"
+    "@id": "RobArmProduct::Canary/2/0"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct/6/0"
+     "@id": "RobArmProduct::Canary/2/0"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct"
+     "@id": "RobArmProduct::Canary"
     },
     {
-     "@id": "RobArmProduct/6/0"
+     "@id": "RobArmProduct::Canary/2/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct"
+     "@id": "RobArmProduct::Canary"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct/6/0"
+     "@id": "RobArmProduct::Canary/2/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct/6/0"
+   "@id": "RobArmProduct::Canary/2/0"
   },
   "payload": {
-   "@id": "RobArmProduct/6/0",
+   "@id": "RobArmProduct::Canary/2/0",
    "@type": "Dependency",
    "client": [
     {
@@ -2692,20 +2764,20 @@
    ],
    "isLibraryElement": false,
    "owner": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct/6"
+    "@id": "RobArmProduct::Canary/2"
    },
    "relatedElement": [
     {
      "@id": "RobArmConfigs::canary"
     },
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "source": [
@@ -2715,30 +2787,30 @@
    ],
    "supplier": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext"
+   "@id": "RobArmProduct::Canary::CanaryContext"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext",
+   "@id": "RobArmProduct::Canary::CanaryContext",
    "@type": "PartDefinition",
    "declaredName": "CanaryContext",
    "feature": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     },
     {
      "@id": "lib:Occurrences::Occurrence::this"
@@ -2754,140 +2826,140 @@
    "name": "CanaryContext",
    "ownedFeature": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ],
    "ownedMember": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ],
    "ownedPart": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct::CanaryContext/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1"
+     "@id": "RobArmProduct::Canary::CanaryContext/1"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct/5"
+    "@id": "RobArmProduct::Canary/1"
    },
-   "qualifiedName": "RobArmProduct::CanaryContext"
+   "qualifiedName": "RobArmProduct::Canary::CanaryContext"
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/0",
    "@type": "FeatureMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "memberName": "canaryUnit",
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ],
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     },
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1"
+   "@id": "RobArmProduct::Canary::CanaryContext/1"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1",
+   "@id": "RobArmProduct::Canary::CanaryContext/1",
    "@type": "FeatureMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ],
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext"
+     "@id": "RobArmProduct::Canary::CanaryContext"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0",
    "@type": "SatisfyRequirementUsage",
    "feature": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     },
     {
      "@id": "lib:NeedStubs::sys_req_0001::ears"
@@ -2926,59 +2998,59 @@
    "isVariation": false,
    "ownedFeature": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     }
    ],
    "ownedMember": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryContext/1"
+    "@id": "RobArmProduct::Canary::CanaryContext/1"
    },
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "satisfiedRequirement": {
     "@id": "lib:NeedStubs::sys_req_0001"
    },
    "satisfyingFeature": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/0",
    "@type": "ReferenceSubsetting",
    "general": {
     "@id": "lib:NeedStubs::sys_req_0001"
    },
    "isLibraryElement": false,
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     },
     {
      "@id": "lib:NeedStubs::sys_req_0001"
@@ -2986,11 +3058,11 @@
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ],
    "specific": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "subsettedFeature": {
     "@id": "lib:NeedStubs::sys_req_0001"
@@ -3004,53 +3076,53 @@
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1",
    "@type": "SubjectMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
    },
    "memberName": "subj",
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     }
    ],
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0",
    "@type": "ReferenceUsage",
    "direction": "in",
    "feature": [
@@ -3068,83 +3140,83 @@
    "name": "subj",
    "ownedMember": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1"
    },
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0",
    "@type": "FeatureValue",
    "featureWithValue": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
    },
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     }
    ],
    "value": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0",
    "@type": "FeatureReferenceExpression",
    "feature": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
     },
     {
      "@id": "lib:Occurrences::Occurrence::this"
@@ -3169,119 +3241,119 @@
    "isLibraryElement": false,
    "ownedFeature": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
     }
    ],
    "ownedMember": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0"
    },
    "referent": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/0",
    "@type": "Membership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1",
    "@type": "ReturnParameterMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
    },
    "memberName": "result",
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
     }
    ],
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0"
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1/0",
+   "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1/0",
    "@type": "Feature",
    "direction": "out",
    "feature": [
@@ -3302,35 +3374,35 @@
    "isLibraryElement": false,
    "name": "result",
    "owner": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0/1"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0/1"
    },
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext/1/0/1/0/0/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/1/0/1/0/0/0"
    },
    "type": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit"
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit",
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit",
    "@type": "PartUsage",
    "declaredName": "canaryUnit",
    "definition": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "feature": [
@@ -3354,125 +3426,125 @@
    "name": "canaryUnit",
    "ownedMember": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit/0"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/0"
     },
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit/1"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryContext/0"
+    "@id": "RobArmProduct::Canary::CanaryContext/0"
    },
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext"
+    "@id": "RobArmProduct::Canary::CanaryContext"
    },
-   "qualifiedName": "RobArmProduct::CanaryContext::canaryUnit",
+   "qualifiedName": "RobArmProduct::Canary::CanaryContext::canaryUnit",
    "type": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit/0"
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit/0",
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/0",
    "@type": "FeatureTyping",
    "general": {
-    "@id": "RobArmProduct::CanaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryUnit"
    },
    "isLibraryElement": false,
    "owningType": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     },
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ],
    "specific": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "target": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "type": {
-    "@id": "RobArmProduct::CanaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryUnit"
    },
    "typedFeature": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    }
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit/1"
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit/1",
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1",
    "@type": "OwningMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     },
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+     "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0"
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryContext::canaryUnit/1/0",
+   "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1/0",
    "@type": "Multiplicity",
    "feature": [
     {
@@ -3485,13 +3557,13 @@
    "isEnd": false,
    "isLibraryElement": false,
    "owner": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryContext::canaryUnit/1"
+    "@id": "RobArmProduct::Canary::CanaryContext::canaryUnit/1"
    },
    "type": [
     {
@@ -3502,16 +3574,16 @@
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryUnit"
+   "@id": "RobArmProduct::Canary::CanaryUnit"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryUnit",
+   "@id": "RobArmProduct::Canary::CanaryUnit",
    "@type": "PartDefinition",
    "declaredName": "CanaryUnit",
    "declaredShortName": "SYS-EL-0001",
    "documentation": [
     {
-     "@id": "RobArmProduct::CanaryUnit/0/0"
+     "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
     }
    ],
    "feature": [
@@ -3529,88 +3601,88 @@
    "name": "CanaryUnit",
    "ownedMember": [
     {
-     "@id": "RobArmProduct::CanaryUnit/0/0"
+     "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
     }
    ],
    "ownedRelationship": [
     {
-     "@id": "RobArmProduct::CanaryUnit/0"
+     "@id": "RobArmProduct::Canary::CanaryUnit/0"
     }
    ],
    "owner": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct"
+    "@id": "RobArmProduct::Canary"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct/4"
+    "@id": "RobArmProduct::Canary/0"
    },
-   "qualifiedName": "RobArmProduct::CanaryUnit",
+   "qualifiedName": "RobArmProduct::Canary::CanaryUnit",
    "shortName": "SYS-EL-0001"
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryUnit/0"
+   "@id": "RobArmProduct::Canary::CanaryUnit/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryUnit/0",
+   "@id": "RobArmProduct::Canary::CanaryUnit/0",
    "@type": "OwningMembership",
    "isLibraryElement": false,
    "memberElement": {
-    "@id": "RobArmProduct::CanaryUnit/0/0"
+    "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
    },
    "membershipOwningNamespace": {
-    "@id": "RobArmProduct::CanaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryUnit"
    },
    "ownedRelatedElement": [
     {
-     "@id": "RobArmProduct::CanaryUnit/0/0"
+     "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
     }
    ],
    "relatedElement": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     },
     {
-     "@id": "RobArmProduct::CanaryUnit/0/0"
+     "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
     }
    ],
    "source": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
    "target": [
     {
-     "@id": "RobArmProduct::CanaryUnit/0/0"
+     "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
     }
    ]
   }
  },
  {
   "identity": {
-   "@id": "RobArmProduct::CanaryUnit/0/0"
+   "@id": "RobArmProduct::Canary::CanaryUnit/0/0"
   },
   "payload": {
-   "@id": "RobArmProduct::CanaryUnit/0/0",
+   "@id": "RobArmProduct::Canary::CanaryUnit/0/0",
    "@type": "Documentation",
    "annotatedElement": [
     {
-     "@id": "RobArmProduct::CanaryUnit"
+     "@id": "RobArmProduct::Canary::CanaryUnit"
     }
    ],
-   "body": "The one product element of the canary: a board, a part and a bit of firmware. ",
+   "body": "The one product element of the canary: a board, a part and a bit of firmware.\nIt realizes no logical element on purpose (canary C0 skips the logical layer).\nReal product elements realize a logical element (D85); do not copy this. ",
    "isLibraryElement": false,
    "owner": {
-    "@id": "RobArmProduct::CanaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryUnit"
    },
    "owningNamespace": {
-    "@id": "RobArmProduct::CanaryUnit"
+    "@id": "RobArmProduct::Canary::CanaryUnit"
    },
    "owningRelationship": {
-    "@id": "RobArmProduct::CanaryUnit/0"
+    "@id": "RobArmProduct::Canary::CanaryUnit/0"
    }
   }
  },
