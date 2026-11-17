@@ -39,7 +39,7 @@ package RobArmProduct {
             attribute holeDiameter default 3.2 [mm];
             attribute hole1X default 4 [mm];
             attribute hole1Y default 4 [mm];
-            attribute hole2X default 26 [mm];
+            attribute hole2X default 24 [mm];
             attribute hole2Y default 16 [mm];
             attribute j1X default 7 [mm];
             attribute j1Y default 12 [mm];
