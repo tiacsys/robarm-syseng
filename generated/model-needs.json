@@ -34,6 +34,16 @@
           "sysml_kind": "PartDefinition",
           "title": "CanaryUnit",
           "type": "sys-el"
+        },
+        "SYS-IF-0001": {
+          "content": "SysML ``PortDefinition`` ``RobArmProduct::Canary::CanaryBoardSpace``.",
+          "id": "SYS-IF-0001",
+          "qualified_name": "RobArmProduct::Canary::CanaryBoardSpace",
+          "source_file": "model/product.sysml",
+          "status": "valid",
+          "sysml_kind": "PortDefinition",
+          "title": "CanaryBoardSpace",
+          "type": "sys-if"
         }
       }
     }

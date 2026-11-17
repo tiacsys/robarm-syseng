@@ -6,7 +6,8 @@ SYS-CFG:
 SYS-EL:
   - 1
 SYS-FEAT: []
-SYS-IF: []
+SYS-IF:
+  - 1
 SYS-NEED:
   - 1
 SYS-REQ:
