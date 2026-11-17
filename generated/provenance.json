@@ -1,0 +1,19 @@
+{
+  "files": {
+    "generated/model-needs.json": {
+      "made_by": "curatrix gen model",
+      "tools": {
+        "jdk": "21.0.13+9",
+        "sysml-pilot": "0.63.1"
+      }
+    },
+    "generated/model.json": {
+      "made_by": "curatrix gen model",
+      "tools": {
+        "jdk": "21.0.13+9",
+        "sysml-pilot": "0.63.1"
+      }
+    }
+  },
+  "version": 1
+}
