@@ -24,14 +24,15 @@ package RobArmProduct {
         // in the board frame: origin at the lower-left corner of the board outline seen from the
         // top, x right, y up, z = 0 on the top face. The box takes heightAbove above the top face
         // and heightBelow below it (the board's own thickness included). Holes are hole<n>X/Y with
-        // one holeDiameter; a connector position is the pin-1 position <ref>X/Y. The canary board
+        // one holeDiameter and a mounting zone of mountZoneDiameter around each; a connector
+        // position is the pin-1 position <ref>X/Y. The canary board
         // conforms to it (EE model), the board seat of the canary assembly too (ME model, whose
         // values CK-F3 holds against FreeCAD); KiCad gets outline and holes by the StepUp push.
         // The values are defaults, not bindings (=), so a domain port def can restate them (ME copies
         // the ones FreeCAD needs). Like CanaryUnit it sits in the canary package; budgets of the arm
         // go to context.sysml.
         port def <'SYS-IF-0001'> CanaryBoardSpace {
-            doc /* The space the canary board may take: box, mounting holes, connector J1. */
+            doc /* The space the canary board may take: box, mounting holes with their zones, connector J1. */
             attribute width default 30 [mm];
             attribute depth default 20 [mm];
             attribute heightAbove default 10 [mm];
@@ -41,6 +42,12 @@ package RobArmProduct {
             attribute hole1Y default 4 [mm];
             attribute hole2X default 24 [mm];
             attribute hole2Y default 16 [mm];
+            attribute mountZoneDiameter default 8 [mm] {
+                doc /* The mounting zone around each mounting hole: a circle of this diameter around
+                     * the hole, on both sides of the board, through the whole box height (owner
+                     * decision 2026-11-18, xdmod#69). EE keeps parts and pads out of a zone; ME may put
+                     * supports below the board and fastener heads above it there. */
+            }
             attribute j1X default 7 [mm];
             attribute j1Y default 12 [mm];
         }
